@@ -21,7 +21,7 @@ This repository contains examples of various algorithms written on different pro
 | [Bubble Sort](https://en.wikipedia.org/wiki/Bubble_sort)                                        | [:octocat:](bubble_sort/C)            | [:octocat:](bubble_sort/Cpp)          |                                       |                                       |
 | [fibonacci series](https://en.wikipedia.org/wiki/Fibonacci_number)                                           | [:octocat:](shell_sort/C)             |                                       |                                       | [:octocat:](shell_sort/Python)        |
 | [Heap Sort](https://en.wikipedia.org/wiki/Heapsort)                                             |                                       |                                       |                                       | [:octocat:](heap_sort/python)        |
-| [Maximum Subarray Problem](https://en.wikipedia.org/wiki/Maximum_subarray_problem)              |                                       |                                       |                                       | [:octocat:](/maximum_subarray/Python)|
+
 
 
 ## Implemented Data Structures
@@ -30,8 +30,7 @@ This repository contains examples of various algorithms written on different pro
 |:----------------------------------------------------------------------------------------------- |:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|
 | [Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type))                               |                                       | [:octocat:](queue/Cpp)                |                                       |                                       |
 | [Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))                               |                                       |                                       | [:octocat:](stack/Java)               | [:octocat:](stack/Python)             |
-| [Linear Linked List](https://en.wikipedia.org/wiki/Linked_list)                                 | [:octocat:](linked_list/C)            |                                       |                                       | [:octocat:](linked_list/Python)       |
-| [AVL Tree](https://en.wikipedia.org/wiki/AVL_tree)                                              | [:octocat:](avl_tree/C)               |                                       | [:octocat:](avl_tree/Java)            | [:octocat:](avl_tree/Python)          |
+
 
 
 ## Sample Run
