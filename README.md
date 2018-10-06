@@ -53,7 +53,7 @@ This repository contains examples of various algorithms written on different pro
 5. Push to the branch: `git push origin my-new-feature`
 6. Submit a pull request :smile:
 
-See [CONTRIBUTING.md](CONTRIBUTING.md).
+See [Contributor.md](Contributor.md).
 
 ## Support
 
