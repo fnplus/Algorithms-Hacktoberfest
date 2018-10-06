@@ -1,6 +1,8 @@
 ## Welcome to the SCC-SIST-Algorithms
 
+This repository is a part of [HacktoberFest -an event organised by DigitalOcear] (https://hacktoberfest.digitalocean.com/). You are requested to create your profile using the above link to be a part of it.
 
+This is only for the Sathyabama Coding Club members.
 
 This repository contains examples of various algorithms written on different programming languages...
 
