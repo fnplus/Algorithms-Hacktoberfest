@@ -3,8 +3,6 @@
 This repository is a part of [ HacktoberFest -an event organised by DigitalOcean ](https://hacktoberfest.digitalocean.com/). 
 You are requested to create your profile using the above link to be a part of it.
 
-### This is only for the Sathyabama Coding Club members.
-
 This repository contains examples of various algorithms written on different programming languages...
 
 ## Implemented Algorithms
@@ -58,7 +56,7 @@ See [Contributor.md](Contributor.md).
 
 ## Support
 
-Feel free to contact us at our [E-mail](sathyabamacodingclub@googlegroups.com), we'd be happy to help!
+Feel free to contact us at our [E-mail](support.fnplus.xyz), we'd be happy to help!
 
 ## Notes
 
