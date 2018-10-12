@@ -1,6 +1,8 @@
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class BinarySearch  { 
+    
     static int binarySearch(int arr[], int l, int r, int x) { 
         if (r>=l) { 
             int mid = l + (r - l)/2; 
@@ -13,7 +15,6 @@ public class BinarySearch  {
         return -1; 
     } 
     public static void main(String args[]) { 
-        BinarySearch bs = new BinarySearch(); 
         Scanner in=new Scanner(System.in);         
         //enter size of array
         int size=in.nextInt();
@@ -28,7 +29,7 @@ public class BinarySearch  {
         int x=in.nextInt();
       
         //getting index of x
-        int index = bs.binarySearch(arr,0,arr.length,x); 
+        int index = binarySearch(arr,0,arr.length,x); 
         if (index == -1) 
             System.out.println("Element not present"); 
         else
