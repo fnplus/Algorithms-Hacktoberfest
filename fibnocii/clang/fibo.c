@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
     int n;
-    printf("Enter the value of n(<=2)\n");
+    printf("Enter the value of n(>=2)\n");
     scanf("%d",&n);
     int f0=0;
     int f1=1;
