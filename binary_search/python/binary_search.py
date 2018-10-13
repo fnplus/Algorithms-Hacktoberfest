@@ -1,28 +1,27 @@
-# add your code here
-def binary_search(ordered_list, target_val):
-    low = 0
-    high = len(ordered_list)
+def binary_search(ordered_list,low,high,target_value):
+    
+    while (low<= high):
+        
+        midpoint =(low+high)/2
+        
+        if target_value == ordered_list[midpoint]:
+            return midpoint
+        
+        elif target_value > ordered_list[midpoint]:
+            low = midpoint+1
+            
+        elif target_value < ordered_list[midpoint]:
+            high = midpoint-1
+        
+    print ("Your search value is not in our list. Please try again.")
+    return -1
+    
+arr = [7, 10, 16, 28, 34, 40]
 
-    while low <= high:
+search_val = 17
+low = 0
+high = len(arr)-1
 
-        pivot = (len(ordered_list))/2
-        if ordered_list[pivot] == target_val:
-            return pivot
-        if target_val < ordered_list[pivot]:
-            high = pivot - 1
-
-        if target_val > ordered_list[pivot]:
-            low = pivot + 1
-
-        else:
-            print ("value not in our list")
-            return -1
-
-    arr = [7, 10, 16, 28, 34, 40]
-    search_val = 7
-    result = binary_search(arr, search_val)
-
-    if result == -1:
-        print "The value your looking for is not here"
-    else:
-        print "The search value is at element %d"
+result = binary_search(arr,low,high,search_val)
+if result != -1:
+    print "Success! The search value is at element " + str(result)
