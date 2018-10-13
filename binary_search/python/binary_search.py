@@ -1,12 +1,11 @@
 # Assuming the array is sorted in ascending order
 def binarySearch(array, n):
-    size = len(array)/2
+    mid = len(array)/2
     if len(array) == 0:
         print("Element not found")
-    elif array[size] == n:
+    elif array[mid] == n:
         print ("Element found")
-    elif array[size] > n:
-        binarySearch(array[:size], n)
+    elif array[mid] > n:
+        binarySearch(array[:mid], n)
     else:
-        binarySearch(array[size+1:], n)
-        
+        binarySearch(array[mid+1:], n)
