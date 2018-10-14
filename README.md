@@ -1,4 +1,4 @@
-## Welcome to the SCC-SIST-Algorithms
+## Welcome to the Algorithms-Hacktoberfest by Fnplus
 
 This repository is a part of [ HacktoberFest -an event organised by DigitalOcean ](https://hacktoberfest.digitalocean.com/). 
 You are requested to create your profile using the above link to be a part of it.
