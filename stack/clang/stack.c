@@ -47,7 +47,6 @@ int main() {
 	Pop();
 	DisplayStack();
 
-
     return 0;
 }
 
