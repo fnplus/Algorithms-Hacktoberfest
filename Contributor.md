@@ -6,8 +6,8 @@ This is a repo created to remember the Hacktober Fest organized by Github, Digit
 ### Please Enter your details and be part of the HacktoberFest2018
 * [Your Name](http://yourgithuburl) | [Your School/Uni](https://www.youruniurl/)
 * [Saurav Jaiswal](https://github.com/sauravjaiswalsj) | [Sathyabama Institute of Science and Technology](http://www.sathyabama.ac.in/)
+* [Foxxy](https://github.com/foxxydev) | ["Aurel Vlaicu" University of Arad](http://www.uav.ro)
 * [Jacob Raffe](https://github.com/jakeraffe) | [University Of Illinois at Chicago](https://www.uic.edu/)
-
 
 
 *Please follow the github Markdown format strictly else PR request might get neglected.*
