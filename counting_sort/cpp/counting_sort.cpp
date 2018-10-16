@@ -1,109 +1,54 @@
-// Counting sort based on: https://en.wikipedia.org/wiki/Counting_sort
+/* Created by SubCoder1 on 31-May-18.
 
-#include <cstdio>
-#include <map>
+     Sorting Technique -- Counting Sort
+     Input             -- A sequence of n numbers
+     Output            -- Reordered into a definite sequence {Ascending(HERE)}
+
+     Time Complexity :-
+        Worst Case - O(N^2)
+        Best  Case - O(N + RANGE)
+ */
+
+
+
+
+
+#include <iostream>
 #include <vector>
-#include <getopt.h>
+#include <algorithm>
+#include <chrono>
 
-using namespace std;
+ using namespace std::chrono;
+ using namespace std;
 
-void instructions(int, char**);
-vector<int> input_sequence();
-void display_vector(const vector<int> &);
-vector<int> counting_sort(const vector<int> &);
+int main(){
+    int inpt;
+    vector<int> store;
+    vector<int>:: iterator it;
 
-int main(int argc, char **argv)
-{
-	instructions(argc, argv);
+    cout << "Unsorted Input -- ";
+    while(cin.peek() != '\n'){
+        cin >> inpt;
+        store.push_back(inpt);
+    }
+    
+    auto start = high_resolution_clock::now();
 
-	vector<int> unordered;
-	unordered = input_sequence();
-	display_vector(unordered);
+    it = max_element(store.begin(), store.end());
+    int range = *it;
+    vector<int> aux(range, 0);
 
-	vector<int> ordered;
-	ordered = counting_sort(unordered);
-	display_vector(ordered);
+    for(auto i: store){ aux[i-1]+=1; }
 
-	return 0;
+    cout << "Sorted Output -- ";
+    for(int i = 0; i < range; i++){
+        for(int j = 1; j <= aux[i]; j++){
+            cout << i+1 << " ";
+        }
+    }
+
+    auto end = high_resolution_clock::now();
+
+    cout << "Time Elapsed -- " << duration_cast<microseconds>(end - start).count() << " microS.\n";
+
 }
-
-vector<int> counting_sort(const vector<int> &unordered)
-{
-
-	map<int,int> count;
-	unsigned int max_int = 0;
-
-	// Calculate the histogram of key frequencies:
-	for (vector<int>::const_iterator it = unordered.begin(); it != unordered.end(); it++) {
-		if (max_int < (unsigned int) *it) {
-			max_int = *it;
-		}
-		count[*it]++;
-	}
-
-	// Calculate the starting index for each key
-	unsigned int total = 0, old_count = 0;
-	for (unsigned int i = 0; i <= max_int; i++) {
-		old_count = count[i];
-		count[i] = total;
-		total += old_count;
-	}
-
-	// Copy to output array, preserving order of inputs with equal keys:
-	vector<int> ordered (total, 0);
-	for (vector<int>::const_iterator it = unordered.begin(); it != unordered.end(); it++) {
-		ordered[count[*it]] = *it;
-		count[*it]++;
-	}
-	return ordered;
-}
-
-void display_vector(const vector<int> &v)
-{
-	for (vector<int>::const_iterator it = v.begin(); it != v.end(); it++) {
-		printf("%d ", *it);
-	}
-	printf("\n");
-	fflush(stdin);
-
-	return;
-}
-
-vector<int> input_sequence()
-{
-	vector<int> vector_input;
-
-	int n = 0;
-	scanf("%d", &n);
-	while (n >= 0) {
-		vector_input.push_back(n);
-		scanf("%d", &n);
-	}
-
-	return vector_input;
-}
-
-void instructions(int argc, char **argv)
-{
-	int c = 0;
-	static struct option long_options[] = {{"help", no_argument, 0, 'h'}};
-	
-	int option_index = 0;
-	c = getopt_long (argc, argv, "h", long_options, &option_index);
-
-	switch (c) {
-		case 'h':
-			printf("Counting Sort algorithm.\n");
-			printf("Type a sequence of positive whole numbers.\n");
-			printf("Finish the input with a negative number\n");
-			printf("Example: 2 1 3 -1\n");
-			fflush(stdin);
-			break;
-
-		default:
-			break;
-	}
-
-	return;
-}
-
