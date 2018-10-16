@@ -1,10 +1,10 @@
-def binarySearch(array, value):
-    start = 0
-    end = len(array)
+def b_Search(array, value):
+    sTart = 0
+    eNd = len(array)
     found = False
     pos = None
-    while start <= end and not found :
-        mid = (start + end) // 2
+    while sTart <= eNd and not found :
+        mid = (sTart + eNd) // 2
         if value == array[mid] : found = True ; pos = mid
         elif value < array[mid] : end = mid - 1
         else : start = mid + 1
@@ -15,5 +15,5 @@ print("Enter the Sequence of elements -- ", end='')
 data = list(map(int, input().split()))
 data.sort()
 print("Enter the element to be searched in the data given -- ", end='')
-val = int(input())
-binarySearch(data,val)
+element = int(input())
+b_Search(data,element)
