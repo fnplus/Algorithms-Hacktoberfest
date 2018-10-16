@@ -45,7 +45,5 @@ int main(){
     }
 
     auto end = high_resolution_clock::now();
-
     cout << "Time Elapsed -- " << duration_cast<microseconds>(end - start).count() << " microS.\n";
-
 }
