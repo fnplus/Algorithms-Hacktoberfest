@@ -9,9 +9,7 @@
         Best  Case - O(N + RANGE)
  */
 
-#include <iostream>
-#include <vector>
-#include <algorithm>
+#include <bits/stdc++.h>
 #include <chrono>
 
  using namespace std::chrono;
@@ -20,8 +18,7 @@
 int main(){
     int inpt, range;
     vector<int> store;
-    vector<int>:: iterator it;
-    
+     
     cout << "Give the range of input -- ";
     cin << range;
 
