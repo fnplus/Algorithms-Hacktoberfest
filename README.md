@@ -1,4 +1,7 @@
-## Welcome to the SCC-SIST-Algorithms
+## Welcome to the Algorithms-Hacktoberfest by Fnplus
+
+![fnplus](https://user-images.githubusercontent.com/25124428/47038568-6b991580-d19f-11e8-8e63-c1067fc04378.jpg)
+
 
 This repository is a part of [ HacktoberFest -an event organised by DigitalOcean ](https://hacktoberfest.digitalocean.com/). 
 You are requested to create your profile using the above link to be a part of it.
@@ -39,6 +42,7 @@ This repository contains examples of various algorithms written on different pro
 | C               | <pre>gcc [filename.c]<br>./a.out  # unix<br>a.exe  # windows</pre>     |
 | CPP             | <pre>g++ [filename.cpp]<br>./a.out # unix<br>a.exe # windows</pre>     |
 | Java            | <pre>javac [filename.java]<br>java [filename]</pre>                    |
+| golang          | <pre>go build [filename.go]<br>[./filename]</pre>                     |
 
 
 ## Contributing

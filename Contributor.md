@@ -7,6 +7,9 @@ This is a repo created to remember the Hacktober Fest organized by Github, Digit
 * [Your Name](http://yourgithuburl) | [Your School/Uni](https://www.youruniurl/)
 * [Saurav Jaiswal](https://github.com/sauravjaiswalsj) | [Sathyabama Institute of Science and Technology](http://www.sathyabama.ac.in/)
 * [Foxxy](https://github.com/foxxydev) | ["Aurel Vlaicu" University of Arad](http://www.uav.ro)
+* [Tejas Tank](https://github.com/majordwarf) | [Thakur College of Science and Commerce](http://tcsc.org.in/)
+* [Sayan Mondal](https://github.com/sayanmondal2098) | [Techno India University , West Bengal](http://technoindiauniversity.ac.in)
+
 
 
 
