@@ -1,21 +1,26 @@
+import java.io.UnsupportedEncodingException;
 import java.util.Scanner;
 
+/** 
+ * Support extended ASCII character
+ */
 public class counting_sort { 
+	
 	void sort(char arr[]) { 
 		int n = arr.length; 
 		  
         // output will contain sorted arr
-        char output[] = new char[n]; 
-  
+        char output[] = new char[n];
+        
         // store count of each character 
-        int count[] = new int[256];
+        int count[] = new int[65536];
         for (int i = 0; i < n; i++) {
             count[arr[i]]++; 
         }
   
         // Change count[i] so that count[i] now contains actual 
         // position of this character in output array 
-        for (int i = 1; i <= 255; i++) {
+        for (int i = 1; i <= 65535; i++) {
             count[i] += count[i - 1]; 
         }
   
@@ -33,12 +38,13 @@ public class counting_sort {
         
 	} 
 
-	public static void main(String args[]) { 
+	public static void main(String args[]) throws UnsupportedEncodingException { 
 		counting_sort ob = new counting_sort();
 		
 		Scanner scanner = new Scanner(System.in);
+		
 		String input = scanner.next();
-		char arr[] = input.toCharArray();
+		char[] arr = input.toCharArray();
 
 		ob.sort(arr); 
 
