@@ -1,15 +1,17 @@
-// add your code here
-#include <bits/stdc++.h>
- using namespace std;
+#include <iostream>
 
-int euclidean_gcd(int num1, int num2){
-  if(num1 == 0){ return num2; }
-  return euclidean_gcd(num2 % num1, num1) }
-
-int main(){
-  int a = 10;
-  int b = 15;
-  cout << "gcd of " << a << " & " << b << " -> " << euclidean_gcd(a,b) << endl;
-  return 0;
+int gcd(int a, int b)
+{
+    return b == 0 ? a : gcd(b, a % b);
 }
-  
+
+using namespace std;
+int main()
+{
+    int a, b;
+    cout << "Inform the vales of a and b: ";
+    cin >> a;
+    cin >> b;
+    cout << "GCD(" << a << ", " << b << "): " << gcd(a, b) << endl;
+    return 0;
+}
