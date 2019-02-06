@@ -2,11 +2,14 @@
 
 ![fnplus](https://user-images.githubusercontent.com/25124428/47038568-6b991580-d19f-11e8-8e63-c1067fc04378.jpg)
 
-
 This repository is a part of [ HacktoberFest -an event organised by DigitalOcean ](https://hacktoberfest.digitalocean.com/). 
 You are requested to create your profile using the above link to be a part of it.
 
 This repository contains examples of various algorithms written on different programming languages...
+
+## Contributors
+
+[![](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/images/0)](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/links/0)[![](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/images/1)](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/links/1)[![](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/images/2)](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/links/2)[![](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/images/3)](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/links/3)[![](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/images/4)](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/links/4)[![](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/images/5)](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/links/5)[![](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/images/6)](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/links/6)[![](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/images/7)](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/links/7)
 
 ## Implemented Algorithms
 
@@ -60,7 +63,7 @@ See [Contributor.md](Contributor.md).
 
 ## Support
 
-Feel free to contact us at our [E-mail](support.fnplus.xyz), we'd be happy to help!
+Feel free to contact us at our [E-mail](support@fnplus.tech), we'd be happy to help!
 
 ## Notes
 
