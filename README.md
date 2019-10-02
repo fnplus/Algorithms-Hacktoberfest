@@ -1,8 +1,10 @@
-## Welcome to the Algorithms-Hacktoberfest by Fnplus
+## Welcome to the Algorithms-Hacktoberfest by FnPlus
 
-![fnplus](https://i.imgur.com/GOXelrQ.gif)
+<p align="center">
+<img src="https://i.imgur.com/GOXelrQ.gif" width="600" height="600" center="true" />
+</p>
 
-This repository is a part of [ HacktoberFest -an event organised by DigitalOcean ](https://hacktoberfest.digitalocean.com/). 
+This repository is a part of [HacktoberFest -an event organised by DigitalOcean](https://hacktoberfest.digitalocean.com/). 
 You are requested to create your profile using the above link to be a part of it.
 
 This repository contains examples of various algorithms written on different programming languages...
