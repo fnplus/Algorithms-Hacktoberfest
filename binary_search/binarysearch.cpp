@@ -1,42 +1,42 @@
-#include<iostream>
-#include<conio.h>
-#include<algorithm>
+#include <iostream>
+using namespace std;
 
-int binary_search(int A[],int f,int l,int num)
-{int mid;
-mid=(f+l)/2;
-if(num==A[mid])
- return mid;
-
-elseif(num>A[mid])
-{binary_search(A,mid+1,l,num);}
-
-elseif(num<A[mid])
-{binary_search(A,f,mid-1,num);
-
-else
-return(-1);
-}
- 
 int main()
-{int a[100],n,d,x;
- cout<<"how many numbers?";
- cin>>n;
+{
+	int count, i, arr[30], num, first, last, middle;
+	cout<<"how many elements would you like to enter?:"; 
+        cin>>count;
 
- cout<<"enter numbers";
- for(int i=0;i<n;i++)
- cin>>a[i];
- 
- sort(a,a+n);
- 
- cout<<"Enter the number you wish to search";
- cin>>d;
+	for (i=0; i<count; i++)
+	{
+		cout<<"Enter number "<<(i+1)<<": "; 
+                cin>>arr[i];
+	}
+	cout<<"Enter the number that you want to search:"; 
+        cin>>num;
+	first = 0;
+	last = count-1;
+	middle = (first+last)/2;
+	while (first <= last)
+	{
+	   if(arr[middle] < num)
+	   {
+		first = middle + 1;
 
- x=binary_search(a,0,n-1,d);
-
- if(x!=-1)
-  cout<<"number is at "<<x+1<<"position";
- else
-  cout<<"number not found";
-return 0;
+	   }
+	   else if(arr[middle] == num)
+	   {
+		cout<<num<<" found in the array at the location "<<middle+1<<"\n"; 
+                break; 
+           } 
+           else { 
+                last = middle - 1; 
+           } 
+           middle = (first + last)/2; 
+        } 
+        if(first > last)
+	{
+	   cout<<num<<" not found in the array";
+	}
+	return 0;
 }
