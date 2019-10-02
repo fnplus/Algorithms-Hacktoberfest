@@ -47,6 +47,19 @@ This repository contains examples of various algorithms written on different pro
 | Java            | <pre>javac [filename.java]<br>java [filename]</pre>                    |
 | golang          | <pre>go build [filename.go]<br>[./filename]</pre>                     |
 
+## Trees
+
+| Alogrithm        | C   | C++ | Java | Python |  JavaScript|
+| --------------- | -----|------|------|---------------|-------------- |
+| Pre-Order Traversal |   |       |      |             |                |
+| Post-Order Traversal |   |       |      |              |                |
+| In-Order Traversal |   |       |      |             |                |
+| Binary Search Tree |   |       |      |             |                |
+| Height of the Tree |   |       |      |              |                |
+| Depth of the Tree |   |       |      |             |                |
+| AVL Tree |   |       |      |             |                |
+| Spanning Tree |   |       |      |             |                |
+
 
 ## Contributing
 
