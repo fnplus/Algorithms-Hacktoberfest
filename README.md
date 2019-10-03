@@ -84,3 +84,6 @@ Feel free to contact us at our [E-mail](support@fnplus.tech), we'd be happy to h
 
 Only project maintainers should merge a PR.
 Other members can add their reviews to a PR but the merging should be done by only a project maintainer.
+
+## Authors
+ * [Saurav Jaiswal](https://github.com/sauravjaiswalsj)
