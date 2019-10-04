@@ -1,4 +1,5 @@
 # Created by Ankur Pandey (Github - AnkDos)
+#HacktoberFest2019
 def max(ar)
     i = 0
     max = ar[i]
