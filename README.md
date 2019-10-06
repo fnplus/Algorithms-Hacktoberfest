@@ -15,20 +15,20 @@ This repository contains examples of various algorithms written on different pro
 
 ## Implemented Algorithms
 
-| Algorithm                                                          | C                             | CPP                             | Java                            | Python                             | JavaScript |
-|:------------------------------------------------------------------ |:-----------------------------:|:-------------------------------:|:-------------------------------:|:----------------------------------:| ---------- |
-| [Euclidean GCD](https://en.wikipedia.org/wiki/Euclidean_algorithm) | [:octocat:](euclidean_gcd/C)  | [:octocat:](euclidean_gcd/C)    | [:octocat:](euclidean_gcd/Java) | [:octocat:](euclidean_gcd/Python)  |            |
-| [QuickSort](https://en.wikipedia.org/wiki/Quicksort)               |                               |                                 |                                 | [:octocat:](quicksort/Python)      |            |
-| [Merge Sort](https://en.wikipedia.org/wiki/Merge_sort)             |                               |                                 |                                 | [:octocat:](merge_sort/Python)     |            |
-| [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort)     | [:octocat:](insertion_sort/C) | [:octocat:](insertion_sort/Cpp) |                                 | [:octocat:](insertion_sort/Python) |            |
-| [Counting Sort](https://en.wikipedia.org/wiki/Counting_sort)       |                               |                                 |                                 | [:octocat:](counting_sort/Python)  |            |
+| Algorithm                                                          | C                                | CPP                             | Java                            | Python                             | JavaScript                            |
+|:------------------------------------------------------------------ |:--------------------------------:|:-------------------------------:|:-------------------------------:|:----------------------------------:|---------------------------------------|
+| [Euclidean GCD](https://en.wikipedia.org/wiki/Euclidean_algorithm) | [:octocat:](euclidean_gcd/clang) | [:octocat:](euclidean_gcd/cpp)  | [:octocat:](euclidean_gcd/Java) | [:octocat:](euclidean_gcd/Python)  |                                       |
+| [QuickSort](https://en.wikipedia.org/wiki/Quicksort)               | [:octocat:](quick_sort/clang)    | [:octocat:](quick_sort/cpp)     | [:octocat:](quick_sort/java)    | [:octocat:](quick_sort/Python)     |                                       |
+| [Merge Sort](https://en.wikipedia.org/wiki/Merge_sort)             | [:octocat:](merge_sort/clang)    | [:octocat:](merge_sort/cpp)     | [:octocat:](merge_sort/java)    | [:octocat:](merge_sort/Python)     |                                       |
+| [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort)     |                                  | [:octocat:](insertion_sort/Cpp) | [:octocat:](insertion_sort/java)|                                    | [:octocat:](insertion_sort/javascript)|
+| [Counting Sort](https://en.wikipedia.org/wiki/Counting_sort)       | [:octocat:](counting_sort/clang) | [:octocat:](counting_sort/cpp)  | [:octocat:](counting_sort/java) | [:octocat:](counting_sort/Python)  |                                       |
 
 ## Implemented Data Structures
 
-| Data Structure                                                   | C   | CPP                    | Java                    | Python                    | JavaScript |
-|:---------------------------------------------------------------- |:---:|:----------------------:|:-----------------------:|:-------------------------:| ---------- |
-| [Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type) |     | [:octocat:](queue/Cpp) |                         |                           |            |
-| [Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type) |     |                        | [:octocat:](stack/Java) | [:octocat:](stack/Python) |            |
+| Data Structure                                                   | C                       | CPP                    | Java                    | Python                    | JavaScript |
+|:---------------------------------------------------------------- |:-----------------------:|:----------------------:|:-----------------------:|:-------------------------:| ---------- |
+| [Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type) |[:octocat:](queue/Clang) | [:octocat:](queue/Cpp) | [:octocat:](queue/Java) | [:octocat:](queue/python) |            |
+| [Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type) |[:octocat:](stack/Clang) |                        | [:octocat:](stack/Java) | [:octocat:](stack/Python) |            |
 
 ## Sample Run
 
@@ -42,16 +42,16 @@ This repository contains examples of various algorithms written on different pro
 
 ## Trees
 
-| Alogrithm            | C   | CPP | Java | Python | JavaScript |
-|:-------------------- | --- | --- | ---- | ------ |:----------:|
-| Pre-Order Traversal  |     |     |      |        |            |
-| Post-Order Traversal |     |     |      |        |            |
-| In-Order Traversal   |     |     |      |        |            |
-| Binary Search Tree   |     |     |      |        |            |
-| Height of the Tree   |     |     |      |        |            |
-| Depth of the Tree    |     |     |      |        |            |
-| AVL Tree             |     |     |      |        |            |
-| Spanning Tree        |     |     |      |        |            |
+| Alogrithm            | C   |    CPP      |     Java    | Python | JavaScript |
+|:-------------------- | --- | ----------- | ----------- | ------ |:----------:|
+| Pre-Order Traversal  |     |             |             |        |            |
+| Post-Order Traversal |     |             |             |        |            |
+| In-Order Traversal   |     |             |             |        |            |
+| Binary Search Tree   |     | [:octocat:] | [:octocat:] |        |            |
+| Height of the Tree   |     |             |             |        |            |
+| Depth of the Tree    |     |             |             |        |            |
+| AVL Tree             |     |             |             |        |            |
+| Spanning Tree        |     |             |             |        |            |
 
 ## Contributing
 
