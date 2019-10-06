@@ -25,10 +25,10 @@ This repository contains examples of various algorithms written on different pro
 
 ## Implemented Data Structures
 
-| Data Structure                                                   | C                       | CPP                    | Java                    | Python                    | JavaScript |
-|:---------------------------------------------------------------- |:-----------------------:|:----------------------:|:-----------------------:|:-------------------------:| ---------- |
-| [Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type) |[:octocat:](queue/Clang) | [:octocat:](queue/Cpp) | [:octocat:](queue/Java) | [:octocat:](queue/python) |            |
-| [Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type) |[:octocat:](stack/Clang) |                        | [:octocat:](stack/Java) | [:octocat:](stack/Python) |            |
+| Data Structure                                                    | C                       | CPP                    | Java                    | Python                    | JavaScript |
+|:----------------------------------------------------------------- |:-----------------------:|:----------------------:|:-----------------------:|:-------------------------:| ---------- |
+| [Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)) |[:octocat:](queue/Clang) | [:octocat:](queue/Cpp) | [:octocat:](queue/Java) | [:octocat:](queue/python) |            |
+| [Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)) |[:octocat:](stack/Clang) |                        | [:octocat:](stack/Java) | [:octocat:](stack/Python) |            |
 
 ## Sample Run
 
@@ -43,7 +43,7 @@ This repository contains examples of various algorithms written on different pro
 ## Trees
 
 | Alogrithm            | C   |    CPP      |     Java    | Python | JavaScript |
-|:-------------------- | --- | ----------- | ----------- | ------ |:----------:|
+|:-------------------- | --- |:-----------:|:-----------:|:------:|:----------:|
 | Pre-Order Traversal  |     |             |             |        |            |
 | Post-Order Traversal |     |             |             |        |            |
 | In-Order Traversal   |     |             |             |        |            |
