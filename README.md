@@ -42,7 +42,7 @@ This repository contains examples of various algorithms written on different pro
 
 ## Trees
 
-| Alogrithm            | C   |    CPP      |     Java    | Python | JavaScript |
+| Algorithm            | C   |    CPP      |     Java    | Python | JavaScript |
 |:-------------------- | --- |:-----------:|:-----------:|:------:|:----------:|
 | Pre-Order Traversal  |     |             |             |        |            |
 | Post-Order Traversal |     |             |             |        |            |
