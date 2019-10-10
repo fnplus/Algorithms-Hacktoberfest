@@ -29,7 +29,7 @@ This repository contains examples of various algorithms written on different pro
 | Data Structure                                                    | C                       | CPP                    | Java                    | Python                    | JavaScript |
 |:----------------------------------------------------------------- |:-----------------------:|:----------------------:|:-----------------------:|:-------------------------:| ---------- |
 | [Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)) |[:octocat:](queue/Clang) | [:octocat:](queue/Cpp) | [:octocat:](queue/Java) | [:octocat:](queue/python) |            |
-| [Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)) |[:octocat:](stack/Clang) |                        | [:octocat:](stack/Java) | [:octocat:](stack/Python) |            |
+| [Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)) |[:octocat:](stack/Clang) | [:octocat:](stack/Cpp) | [:octocat:](stack/Java) | [:octocat:](stack/Python) |            |
 
 ## Sample Run
 
