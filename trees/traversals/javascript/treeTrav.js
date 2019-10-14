@@ -18,3 +18,42 @@ root.left = n1;
 root.right = n2;
 n1.left = n3;
 n1.right = n4;
+
+
+// PREORDER Traversal
+function pre_order(root, nodes) {
+    console.log(root.data);
+    if (root && root.left) {
+        pre_order(root.left, nodes);
+    }
+    if (root && root.right) {
+        pre_order(root.right, nodes);
+    }
+    return nodes;
+}
+
+
+// INORDER Traversal
+function in_order(root, nodes) {
+    if (root && root.left) {
+        in_order(root.left, nodes);
+    }
+    console.log(root.data);
+    if (root && root.right) {
+        in_order(root.right, nodes);
+    }
+    return nodes;
+}
+
+
+// POSTORDER Traversal
+function post_order(root, nodes) {
+    if (root && root.left) {
+        post_order(root.left, nodes);
+    }
+    if (root && root.right) {
+        post_order(root.right, nodes);
+    }
+    console.log(root.data);
+    return nodes;
+}
