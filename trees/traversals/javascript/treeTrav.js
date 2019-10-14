@@ -57,3 +57,14 @@ function post_order(root, nodes) {
     console.log(root.data);
     return nodes;
 }
+
+
+// MAIN
+console.log("InOrder Traversal: ")
+in_order(root, []);
+
+console.log("PreOrder Traversal: ")
+pre_order(root, []);
+
+console.log("PostOrder Traversal: ")
+post_order(root, []);
