@@ -17,6 +17,7 @@ This is a repo created to remember the Hacktober Fest organized by Github, Digit
 
 * [Shubham Verma](https://github.com/shubhamvrm) | [Jamia Millia Islamia](https://www.jmi.ac.in)
 
+* [Kautuk Srivastava](https://github.com/Kautuk13) | [Jamia Millia Islamia](https://www.jmi.ac.in)
 *Please follow the github Markdown format strictly else PR request might get neglected.*
 *Change the demo details and enter your details there, make sure to leave a demo markdown code there for other as it was before.*
 
