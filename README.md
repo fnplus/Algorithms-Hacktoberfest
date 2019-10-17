@@ -22,7 +22,7 @@ This repository contains examples of various algorithms written on different pro
 | [Merge Sort](https://en.wikipedia.org/wiki/Merge_sort)             | [:octocat:](merge_sort/clang)    | [:octocat:](merge_sort/cpp)     | [:octocat:](merge_sort/java)    | [:octocat:](merge_sort/Python)     |                                       |
 | [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort)     |                                  | [:octocat:](insertion_sort/Cpp) | [:octocat:](insertion_sort/java)|                                    | [:octocat:](insertion_sort/javascript)|
 | [Counting Sort](https://en.wikipedia.org/wiki/Counting_sort)       | [:octocat:](counting_sort/clang) | [:octocat:](counting_sort/cpp)  | [:octocat:](counting_sort/java) | [:octocat:](counting_sort/Python)  |                                       |
-| [Tower of Hanoi](https://en.wikipedia.org/wiki/Tower_of_Hanoi)       | [:octocat:](towers_of_hanoi/clang) |                     |                | [:octocat:](towers_of_hanoi/Python)  |                                       |
+| [Tower of Hanoi](https://en.wikipedia.org/wiki/Tower_of_Hanoi)     | [:octocat:](towers_of_hanoi/clang)|                                |                                 | [:octocat:](towers_of_hanoi/Python)|                                       |
 
 ## Implemented Data Structures
 
@@ -45,9 +45,9 @@ This repository contains examples of various algorithms written on different pro
 
 | Algorithm            | C   |    CPP      |     Java    | Python | JavaScript |
 |:-------------------- | --- |:-----------:|:-----------:|:------:|:----------:|
-| Pre-Order Traversal  |     |             |             |        |            |
-| Post-Order Traversal |     |             |             |        |            |
-| In-Order Traversal   |     |             |             |        |            |
+| Pre-Order Traversal  |     |             | [:octocat:] |        |            |
+| Post-Order Traversal |     |             | [:octocat:] |        |            |
+| In-Order Traversal   |     |             | [:octocat:] |        |            |
 | Binary Search Tree   |     | [:octocat:] | [:octocat:] |        |            |
 | Height of the Tree   |     |             |             |        |            |
 | Depth of the Tree    |     |             |             |        |            |
@@ -79,3 +79,4 @@ Other members can add their reviews to a PR but the merging should be done by on
 ## Authors
 
 * [Saurav Jaiswal](https://github.com/sauravjaiswalsj)
+* [Abhishek Uniyal](https://github.com/xlogix)
