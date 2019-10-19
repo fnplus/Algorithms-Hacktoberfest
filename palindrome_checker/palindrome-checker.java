@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main
+public class Palindrome-checker
 {
     public static void main(String[] args)
     {
