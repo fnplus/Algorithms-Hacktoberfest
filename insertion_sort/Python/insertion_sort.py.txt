@@ -1,6 +1,6 @@
-# Python program for implementation of Insertion Sort 
+#Python program for implementation of Insertion Sort 
   
-# Function to do insertion sort 
+#Function to do insertion sort 
 def insertion_Sort(arr): 
   
     # Traverse through 1 to length of array 
