@@ -1,7 +1,7 @@
-Estructura de datos para modelar una colección de conjuntos disyuntos.
-Permite determinar de manera eficiente a que conjunto pertenece un elemento,
-si dos elementos se encuentran en un mismo conjunto y unir dos conjuntos disyuntos en un uno.
 
+Data structure to model a collection of disjoint sets.
+It allows to determine in an efficient way to which set an element belongs,
+If two elements are in the same set and join two sets disjoint into one.
 static class dsu {
     int[] par, sz;
     int size; //Number of sets
