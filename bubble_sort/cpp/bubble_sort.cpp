@@ -1,10 +1,10 @@
 #include <iostream>
 
 void swap(int& x, int & y){
-	//simple swap function
-	int temp = x;
-	x = y;
-	y = temp;
+	// Swap without using extra variable
+	x = x + y;
+	y = x - y;
+	x = x - y;
 }
 
 void bubblesort(int a_size, int *a) {
