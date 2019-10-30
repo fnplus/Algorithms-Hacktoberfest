@@ -17,12 +17,12 @@ This repository contains examples of various algorithms written on different pro
 
 | Algorithm                                                          | C                                | CPP                             | Java                            | Python                             | JavaScript                            |
 |:------------------------------------------------------------------ |:--------------------------------:|:-------------------------------:|:-------------------------------:|:----------------------------------:|---------------------------------------|
-| [Euclidean GCD](https://en.wikipedia.org/wiki/Euclidean_algorithm) | [:octocat:](euclidean_gcd/clang) | [:octocat:](euclidean_gcd/cpp)  | [:octocat:](euclidean_gcd/Java) | [:octocat:](euclidean_gcd/Python)  |                                       |
-| [QuickSort](https://en.wikipedia.org/wiki/Quicksort)               | [:octocat:](quick_sort/clang)    | [:octocat:](quick_sort/cpp)     | [:octocat:](quick_sort/java)    | [:octocat:](quick_sort/Python)     |                                       |
-| [Merge Sort](https://en.wikipedia.org/wiki/Merge_sort)             | [:octocat:](merge_sort/clang)    | [:octocat:](merge_sort/cpp)     | [:octocat:](merge_sort/java)    | [:octocat:](merge_sort/Python)     |                                       |
-| [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort)     |                                  | [:octocat:](insertion_sort/Cpp) | [:octocat:](insertion_sort/java)|                                    | [:octocat:](insertion_sort/javascript)|
-| [Counting Sort](https://en.wikipedia.org/wiki/Counting_sort)       | [:octocat:](counting_sort/clang) | [:octocat:](counting_sort/cpp)  | [:octocat:](counting_sort/java) | [:octocat:](counting_sort/Python)  |                                       |
-| [Tower of Hanoi](https://en.wikipedia.org/wiki/Tower_of_Hanoi)     | [:octocat:](towers_of_hanoi/clang)|                                |                                 | [:octocat:](towers_of_hanoi/Python)|                                       |
+| [Euclidean GCD](https://en.wikipedia.org/wiki/Euclidean_algorithm) | [:octocat:](euclidean_gcd/clang) | [:octocat:](euclidean_gcd/cpp)  | [:octocat:](euclidean_gcd/java) | [:octocat:](euclidean_gcd/python)  | [:octocat:](euclidean_gcd/javascript) |
+| [QuickSort](https://en.wikipedia.org/wiki/Quicksort)               | [:octocat:](quick_sort/clang)    | [:octocat:](quick_sort/cpp)     | [:octocat:](quick_sort/java)    | [:octocat:](quick_sort/python)     | [:octocat:](quick_sort/javascript) |
+| [Merge Sort](https://en.wikipedia.org/wiki/Merge_sort)             | [:octocat:](merge_sort/clang)    | [:octocat:](merge_sort/cpp)     | [:octocat:](merge_sort/java)    | [:octocat:](merge_sort/python)     | [:octocat:](merge_sort/javascript) |
+| [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort)     | [:octocat:](insertion_sort/c) | [:octocat:](insertion_sort/cpp) | [:octocat:](insertion_sort/java)| [:octocat:](insertion_sort/Python) | [:octocat:](insertion_sort/javascript)|
+| [Counting Sort](https://en.wikipedia.org/wiki/Counting_sort)       | [:octocat:](counting_sort/clang) | [:octocat:](counting_sort/cpp)  | [:octocat:](counting_sort/java) | [:octocat:](counting_sort/python)  | [:octocat:](counting_sort/javascript) |
+| [Tower of Hanoi](https://en.wikipedia.org/wiki/Tower_of_Hanoi)     | [:octocat:](towers_of_hanoi/clang) | [:octocat:](towers_of_hanoi/cpp) | [:octocat:](towers_of_hanoi/java) | [:octocat:](towers_of_hanoi/python)| [:octocat:](towers_of_hanoi/javascript) |
 
 ## Implemented Data Structures
 
